@@ -374,7 +374,7 @@
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" />
   <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="ls" revision="lollipop-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8084" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8084" /> -->
+  <project path="hardware/qcom/display-caf/msm8084" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8084" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
@@ -504,4 +504,7 @@
   <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="notdefault,tradefed" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="vendor/infamous" name="android_vendor_infamous" remote="il" revision="lollipop"/>
+  <project path="hardware/qcom/audio-caf/apq8084" name="android_infamous_qcom_audio" remote="il" revision="lollipop"/>
+  <project path="hardware/qcom/display-caf/apq8084" name="android_infamous_qcom_display" remote="il" revision="lollipop"/>
+  <project path="hardware/qcom/media-caf/apq8084" name="android_infamous_qcom_media" remote="il" revision="lollipop"/>
 </manifest>
