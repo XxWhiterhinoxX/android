@@ -18,6 +18,9 @@
   <remote  name="bb"
            fetch="https://bitbucket.org/" />
 
+  <remote  name="bb"
+           fetch="https://bitbucket.org/" />
+
   <remote  name="ls"
            fetch="https://github.com/LiquidSmooth" />
 
