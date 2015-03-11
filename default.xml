@@ -435,8 +435,8 @@
   <project path="packages/providers/TelephonyProvider" name="SlimRoms/packages_providers_TelephonyProvider" remote="github" revision="lp5.0-caf" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" />
-  <project path="packages/apps/LiquidStats" name="android_packages_apps_LiquidStats" remote="ls" revision="lollipop" />
-  <project path="packages/apps/LiquidUpdater" name="android_packages_apps_LiquidUpdater" remote="ls" revision="lollipop" />
+  <!-- <project path="packages/apps/LiquidStats" name="android_packages_apps_LiquidStats" remote="ls" revision="lollipop" />
+  <project path="packages/apps/LiquidUpdater" name="android_packages_apps_LiquidUpdater" remote="ls" revision="lollipop" /> -->
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="ls" revision="lollipop" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="ls" revision="lollipop" />
   <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" remote="github" revision="lp5.0-caf" />
@@ -515,10 +515,10 @@
 
   <project path="android" name="android" remote="ls" revision="lollipop" />
 
-  <!-- New Additions for liquid -->
+  <!-- New Additions for liquid 
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="lollipop" >
     <copyfile src="tools/build-liquid.sh" dest="build-liquid.sh" />
-  </project>
+  </project> -->
 
   <!-- Slim file manager -->
   <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="lp5.0" />
@@ -555,10 +555,16 @@
 
   <!-- CyanogenMod Hardware Abstraction Framework -->
   <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="cm" revision="cm-12.0" />
+  
+    <!-- Infamous vendor -->
+  <project path="vendor/infamous" name="android_vendor_infamous" remote="wr" revision="5.1" >
+    <copyfile src="tools/build-infamous.sh" dest="build-infamous.sh" />
+  </project>
 
-  <!-- Infamous stuff -->
-  <project path="vendor/infamous" name="android_vendor_infamous" remote="wr" revision="lollipop"/>
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="wr" revision="5.1" />
+  <!-- Infamous frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="wr" revision="5.1"/>
+  
+  <!-- Infamous packages -->
+<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="wr" revision="5.1" />
 
 </manifest>
