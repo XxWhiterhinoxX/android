@@ -32,7 +32,7 @@ Repositories:
 
 Before you continue --> run this in the terminal
 
-    repo init -u git://github.com/XxWhiterhinoxX/android.git -b lollipop-cm
+    repo init -u git://github.com/XxWhiterhinoxX/android.git -b lollipop
 
     repo sync
     
