@@ -8,10 +8,6 @@
            sync-c="true"
            review="https://gerrit.slimroms.net/"/>
 
-  <remote  name="github"
-           fetch=".."
-           review="review.cyanogenmod.org" />
-
   <remote  name="lsd"
            fetch="https://github.com/LiquidSmooth-Devices" />
 
